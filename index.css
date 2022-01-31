@@ -56,7 +56,12 @@ header{
     width: 40%;
     height: 100%;
     background-color: #6355FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+
 
 .div-part1-right{
     width: 60%;
@@ -97,4 +102,45 @@ header{
     background-size: cover;
     background-position: center;
     
+}
+
+.part3{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.div-part3-left{
+    height: 100%;
+    width: 60%;
+}
+
+.div-part3-right{
+    height: 100%;
+    width: 40%;
+    background-color: #6356FF;
+    position: relative;
+}
+
+.div-part3-right-img{
+    position: absolute;
+    box-shadow: 0px 2px 2px 1px black;
+    background-size: cover;
+    background-position: center;
+    width: 70%;
+    height: 70%;
+    top: 6rem;
+    right: 15rem;
+
+}
+
+.div-part3-right-img-phone{
+    position: absolute;
+    width: 35%;
+    height: 55%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.5rem;
+    top: 14rem;
+    left: 16rem;
 }
