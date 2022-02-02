@@ -463,6 +463,8 @@ header{
 .part6-left{
     width: 60%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .part6-right{
@@ -485,3 +487,73 @@ header{
     right: 14rem;
     box-shadow: 0px 0px 1px 1px white;
 }
+
+.texe-footer-part1{
+    margin-top: 4rem;
+    margin-left: 4.3rem;
+    font-size: 1rem;
+    color: #6355FF;
+}
+
+.texe-footer-part2{
+    margin-top: 1.4rem;
+    font-size: 5rem;
+    margin-left: 4.1rem;
+}
+
+.part6-input1{
+    margin-top: 4rem;
+    margin-left: 4.3rem;
+    outline: none;
+    width: 35rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.part6-input2{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    width: 35rem;
+    margin-left: 4.3rem;
+    margin-top: 3rem;
+}
+
+.part6-input3{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    width: 35rem;
+    margin-left: 4.3rem;
+    margin-top: 3rem;
+}
+
+.part6-input4{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    width: 35rem;
+    margin-left: 4.3rem;
+    margin-top: 8rem;
+}
+
+.part6-button{
+    width: 9rem;
+    height: 3rem;
+    background-color: #6356FF;
+    margin-left: 4.3rem;
+    border: none;
+    color: white;
+    margin-top: 3.5rem;
+    font-size: 0.8rem;
+}
+
+.part6-button:hover{
+    cursor: pointer;
+}
+
+
